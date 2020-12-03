@@ -57,7 +57,7 @@ do{
  {while(condition1)}
 }
 */
-document.write("<h1>--------------------boucle do while----------------------------</h1>")
+document.write("<h1>--------------------boucle while----------------------------</h1>")
 var nb1=8;
 while(nb1<10){//tant que la valeur de la variable nb1 est inferieur a 10 exécute moi ces instructions
     document.write(nb1+"<br>");
