@@ -16,7 +16,7 @@ for(var i = 0; i<10; i=i+2){//la boucle commence a 0 et s'incrémente a chque fo
     
 }
 //creer une boucle de 0 a 5, on s'incrémente de 1 qui calcule et affiche a chaque fois le carré de valeur courante de i
-for(var i=0;i<=5;i++){
+for(var i=0;i<=5;i++){o
     document.write(i+"*"+i+"="+i*i+"<br>");
 
 }
