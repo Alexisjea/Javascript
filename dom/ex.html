@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="texte">Votre texte ici</label>
+    <input type="text" id="copie"><br>
+    <label for="texte">Votre copier ici</label>
+    <input type="text" id="copie1">
+
+    <script>
+       var texte = document.getElementById('texte') 
+       var copier = document.getElementById('copier')
+       
+     texte.addEventListener('keyup', function(){
+         copie.value = texte.value;
+     })  
+
+
+     
+
+
+    </script>
+</body>
+</html>

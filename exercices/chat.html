@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actions utilisateur et Javascript</title>
+</head>
+<body id="body">
+    <header id="background1">
+
+<h5>Actions utilisateur et Javascript </h5>
+<h1>blablablavblablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla</h1>
+<img src="chat.jpg" alt="" id="chat1">
+<div><button id="cliqueici">cliquez ici</button></div>
+<button id="nuit">nuit</button>
+<button id="jour">jour</button>
+<p><img src="chat.jpg" alt="" id="lechat"></p>
+
+
+<script>
+    
+        var monBouton = document.getElementById('cliqueici');
+        var monImage = document.getElementById('chat1');
+
+            monBouton.addEventListener('click', function(){
+            monImage.src = "chien.jpg";
+            document.getElementById().style.width = '100%';
+        })
+        var monbackground = document.getElementById('nuit');
+        var monBouton = document.getElementById('nuit');
+         
+            monbackground.addEventListener('click' , function(){
+             document.getElementById('body').style.backgroundColor = "black";
+             document.getElementById('body').style.color = "white";
+         })
+        
+        var monbackground = document.getElementById('jour');
+        var monBouton = document.getElementById('jour');
+         
+            monbackground.addEventListener('click' , function(){
+             document.getElementById('body').style.backgroundColor = "white";
+             document.getElementById('body').style.color = "black";
+         })
+             
+</script>
+</header>
+</body>
+</html>
